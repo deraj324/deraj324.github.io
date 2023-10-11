@@ -2,37 +2,104 @@
 <html>
   <head>
     <title>My fifth web page.</title>
-    <style>
+  <style>
+      body { width: 100%; }
+      #container { 
+        width: 70%;
+        text-align: left;
+        margin: 0px auto;
+      }
+     #photo {
+       background-color: #eefeee;
+       margin-left: auto;
+       margin-right: 0;
+       float: right;
+       width: 150px;
+      }
+      #myphoto {
+        height: auto;
+        width: 100px;
+        border: 1px solid #ddd;
+        border-radius: 5%;
+        padding: 5px;
+        display: block;
+        margin: auto;
+      }
+      .caption {
+        font-size: 10px;
+        font-family: times;
+        text-align: center;
+      }
+      p, td, li {
+        font-size: 10px;
+        font-family: times;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: times;
+        background-color: #fefeee;
+      }
+      a { text-decoration: none; }
+    a:visited { background-color: #feeeee; }
+    a:link {background-color:}
+    a:hover { background-color: #fefeee; }
       
-    </style>
+  </style>
   </head>
   <body>
   <div id="container">
-    <h1>My tfifth webpage!</h1>
+    <h1>My fifth webpage!</h1>
     
-      <p> This is me making my fifth webpage for GIS 3410, MSU Denver.</p>
+      <p>This is me making my fifth webpage for GIS 3410, MSU Denver.</p>
     
     <h3>About Me</h3
 
     <div id="photo">
-    <img id="myphoto" src="Screenshot_20220510-220400_Photos.jpg" />
-    <p class="caption">Jared Bigelow<p/>
-    <p class="caption">Phot by Jared Bigelow</p>
-    Im a student at <a href="https://www.msudenver.edu">MSU Denver.</a>
+      <img id="myphoto" src="Screenshot_20220510-220400_Photos.jpg" />
+      <p class="caption">Jared Bigelow<p/>
+      <p class="caption">Photo by Jared Bigelow</p>
+      Im a student at <a href="https://www.msudenver.edu">MSU Denver.</a>
     </div>
 
-      <div id="ThingsIliketodo">
-      <p> Here are thing I like doing the most:</p>
-      <ol>
+    <div id="ThingsIliketodo">
+     <p>Here are thing I like doing the most:</p>
+     <ol>
         <li>Playing Guitar</li>
         <li>Playing Drums</li>
         <li>Photography</li>
       </ol>
-      </div>
+    </div>
 
     <div id="otherinfo">
-    Other information about me
+    <p>Other information about me</p>
     <ul>
+      <li>Last semester before graduation</li>
+      <li>GIS BS Major</li>
+      <li>Gelogic area of interest</li>
+    </ul>
+    </div>
+
+  <h2>My favorite bands</h2>
+   <table id="bands">
+     <tr>
+       <th>Band Name</th>
+       <th>Favorite Song</th>
+     </tr>
+     <tr>
+       <td>Green Day</td>
+       <td>Basket Case</td>
+     </tr>
+     <tr>
+       <td>Nirvana</td>
+       <td>Lounge Act</td>
+     </tr>
+     <tr>
+       <td>The Beatles</td>
+       <td>Strawberry Fields</td>
+     </tr>
+    </table>
+  </div> 
+  </body>
+</html>
       <li>Last semester before graduation</li>
       <li>GIS BS Major</li>
       <li>Gelogic area of interest</li>
