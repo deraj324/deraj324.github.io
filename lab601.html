@@ -94,6 +94,12 @@
           $("#div_ctr3").html("The Beatles");
         });
 
+          // toggle the photo on and off
+           $("#togglephoto").click(funtion() {
+             console.log("toggle the photo");
+             $("#myphoto").fadeToggle();
+           });
+
       }); 
   </script>
   </head>
@@ -110,6 +116,7 @@
       <p class="caption">Jared Bigelow<p/>
       <p class="caption">Photo by Jared Bigelow</p>
       Im a student at <a href="https://www.msudenver.edu">MSU Denver.</a>
+        <button id="togglephoto">Toggle the photo on/off.</button>
     </div>
 
     <div id="ThingsIliketodo">
