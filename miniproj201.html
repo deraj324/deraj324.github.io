@@ -101,7 +101,16 @@
                       if (! blank.includes("-")) {
                         gameWon = true;
                         $("#info").text("YOU WON! Good job!");
-                         (img.src="Godzilla.gif")
+                         function createImage() {
+                           let img = document.getElementById('img');
+                           let newImage = document.createElement('img');
+                           newImage.src = "Godzilla.gif";
+                           // Set attribute values for the image
+                           newImage.setAttribute('id', 'myImage');
+                           newImage.setAttribute('width', '200px');
+                           newImage.setAttribute('height', '200px');
+                           img.appendChild(newImage);
+      }
                       }
                     
 
