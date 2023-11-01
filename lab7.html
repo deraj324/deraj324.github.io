@@ -22,13 +22,12 @@
        max-height: 75%;
        margin: auto;
       }
-      <!#map { height: 600px; };>
+      <!--#map { height: 600px; };-->
       </style>
 </head>
 <body>
  <div id="map"></div>
  <script>
-  #map { height: 180px; }
   var map = L.map('map').setView([51.505, -0.09], 13);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
